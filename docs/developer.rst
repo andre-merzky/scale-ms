@@ -10,5 +10,6 @@ Developer Documents
     applications
     dataflow
     executor
+    runtime
     operations
     specifications
