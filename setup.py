@@ -1,5 +1,6 @@
 from setuptools import setup
 
+# TODO: Split server components to an "extras" optional subpackage.
 setup(
     name='scalems',
     version='0',
@@ -8,5 +9,8 @@ setup(
     license='',
     author='SCALE-MS team',
     author_email='',
-    description=''
+    description='',
+    requires=['googleapis-common-protos', # provides google.longrunning
+              'protobuf', # provides google.protobuf
+              ]
 )
